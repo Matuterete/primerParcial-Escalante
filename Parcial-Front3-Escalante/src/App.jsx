@@ -1,17 +1,15 @@
-import Card from "./Cards.jsx";
+import Formulario from "./Components/Formulario";
 
 
 function App() {
+
   return (
-    <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
+    <div>
+      <h1>¡Queremos saber más de vos!</h1>
+      <Formulario/>
     </div>
   );
 }
-
-
 
 export default App;
 
